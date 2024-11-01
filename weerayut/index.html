@@ -1,72 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/d378acafd8.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</head>
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </head>
 
-<body>
-    <div class="container">
-        <h1>My Profile</h1>
-        <div class="list-group">
-            <a href="#" class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Name - (ชื่อ - สกุล):</h5>
-                </div>
-                <p class="mb-1">Weerayut Pliankaew - วีรยุทธ เปลี่ยนแก้ว</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Birthday - วันเกิด:</h5>
-                </div>
-                <p class="mb-1">19 สิงหาคม 2549</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Hobby - งานอดเรก:</h5>
-                </div>
-                <p class="mb-1">ฟังเพลง เล่นเกม</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">address - ที่อยู่:</h5>
-                </div>
-                <p class="mb-1">13 หมู่ที่ 1 ต.ดอนรวก อ.ดอนตูม จ.นครปฐม</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Favorite - สิ่งที่ชอบ</h5>
-                </div>
-                <p class="mb-1">- Minecraft,Valorant<br>- ข้าวหมูทอดกระเทียม <br>- แมว</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1"></h5>
-                </div>
-                <p class="mb-1">-</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">-</h5>
-                </div>
-                <p class="mb-1">-</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">-</h5>
-                </div>
-                <p class="mb-1">-</p>
-            </a>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <h3 class="navbar-brand"><i class="fa-solid fa-user"></i> My Profile</h3>
+        <div class="me-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="btn" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
+                  class="fa-brands fa-spotify"></i> Music</a>
+              <ul class="dropdown-menu ">
+                <iframe style="border-radius:12px"
+                  src="https://open.spotify.com/embed/track/6KRj0vz2JEk8Ykt1Q0KKZX?utm_source=generator&theme=0"
+                  width="100%" height="152" frameBorder="0" allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <div class="content d-flex justify-content-center">
+      <img src="assets/img/Profile_1.png" alt="Profile Picture" class="profile-pic me-2 mt-2">
+      <div class="d-flex flex-column">
+        <div class="list-group shadow mb-1">
+          <div class="list-group-item">
+            <h5 class="mb-1"><i class="fa-solid fa-signature"></i> Name - (ชื่อ - สกุล):</h5>
+            <p class="mb-1">> Weerayut Pliankaew - วีรยุทธ เปลี่ยนแก้ว</p>
+          </div>
+          <div class="list-group-item">
+            <h5 class="mb-1"><i class="fa-solid fa-cake-candles"></i> Birthday - วันเกิด:</h5>
+            <p class="mb-1">> 19 สิงหาคม 2549</p>
+          </div>
+          <div class="list-group-item">
+            <h5 class="mb-1"><i class="fa-solid fa-wand-magic-sparkles"></i> Hobby - งานอดเรก:</h5>
+            <p class="mb-1">> ฟังเพลง เล่นเกม</p>
+          </div>
+          <div class="list-group-item">
+            <h5 class="mb-1"><i class="fa-solid fa-location-dot"></i> Address - ที่อยู่:</h5>
+            <p class="mb-1">> 13 หมู่ที่ 1 ต.ดอนรวก อ.ดอนตูม จ.นครปฐม</p>
+          </div>
+          <div class="list-group-item">
+            <h5 class="mb-1"><i class="fa-solid fa-star"></i> Favorite - สิ่งที่ชอบ:</h5>
+            <p class="mb-1"> > Minecraft,Valorant<br>> ข้าวหมูทอดกระเทียม <br>> แมว </p>
+          </div>
+          <div class="list-group-item">
+            <h5 class="mb-1"><i class="fa-solid fa-comment"></i> Quotation - คำคม:</h5>
+            <p class="mb-1">> ถ้ารักแล้วมันทุกข์ มากินชานมไข่มุกกันเถอะ!</p>
+          </div>
+        </div>
+        <div class="list-group Contact shadow mb-1">
+          <div class="list-group-item">
+            <h5 class="mb-2"><i class="fa-solid fa-address-book"></i> Contact - ช่องทางติดต่อ:</h5>
+            <ul class="row row-cols-1" style="list-style-type: none; padding: 0; margin: 0;">
+              <p class="col"><i class="fa-brands fa-facebook"></i> Ball Weerayut</p>
+              <p class="col"><i class="fa-solid fa-envelope"></i> weerayut19082549@gmail.com</p>
+            </ul>
+          </div>
+        </div>
+        <div class="list-group Contact shadow mb-1">
+          <div class="list-group-item">
+            <h5 class="mb-2"><i class="fa-brands fa-spotify"></i> Music/Video Favorite:</h5>
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/track/6cpk00i5TxCqSeqNi2HuIe?utm_source=generator" width="100%"
+              height="152" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+    </div>
+  </body>
 
 </html>
