@@ -42,6 +42,10 @@ nav .btn {
 
 .content {
   display: flex;
-  align-items: flex-start; /* จัดให้อยู่ด้านบนของรูปและกลุ่มข้อมูล */
+  align-items: flex-start;
 }
 
+img {
+  border-radius: 1rem;
+  padding: 10px;
+}
